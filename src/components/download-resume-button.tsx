@@ -27,7 +27,7 @@ export function DownloadResumeButton({ variant = "primary", className }: { varia
           <div className="absolute right-0 z-20 mt-2 w-56 overflow-hidden rounded-xl border border-border bg-popover shadow-2xl">
             <a
               href="/resume/Anshu_Sharma_Resume.pdf"
-              download
+              download="Anshu_Sharma_Resume.pdf"
               onClick={() => setOpen(false)}
               className="flex items-center gap-3 px-4 py-3 text-sm transition-colors hover:bg-secondary"
             >
@@ -40,7 +40,7 @@ export function DownloadResumeButton({ variant = "primary", className }: { varia
             <div className="h-px bg-border" />
             <a
               href="/resume/Anshu_Sharma_Resume.docx"
-              download
+              download="Anshu_Sharma_Resume.docx"
               onClick={() => setOpen(false)}
               className="flex items-center gap-3 px-4 py-3 text-sm transition-colors hover:bg-secondary"
             >

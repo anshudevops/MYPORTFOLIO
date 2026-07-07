@@ -128,7 +128,7 @@ function RootComponent() {
             <Outlet />
           </main>
           <Footer />
-          <ChatWidget />
+          {/* <ChatWidget /> */}
         </div>
       </ThemeProvider>
     </QueryClientProvider>

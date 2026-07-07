@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Secure Smart-Card Banking Portal",
     category: "Frontend" as const,
-    description: "React + TypeScript banking portal for a Mumbai-based client. Reduced load times 30% via lazy loading and route-level code splitting.",
+    description: "React + TypeScript banking portal for a US based client. Reduced load times 30% via lazy loading and route-level code splitting.",
     stack: ["React", "TypeScript", "Redux Toolkit", "React Query"],
     accent: "from-primary to-primary-glow",
   },
