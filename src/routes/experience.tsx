@@ -41,6 +41,19 @@ const roles = [
       { tag: "Performance", text: "Improved Lighthouse score from 62 → 89 on a client-facing portal through image optimisation, bundle splitting, and deferred third-party scripts." },
     ],
   },
+  {
+    company: "Infogain",
+    title: "React Developer",
+    period: "May 2018 – Mar 2021",
+    location: "Noida, India",
+    summary: "Banking and customer-facing web applications for clients across Delhi NCR (110001) — foundational React.js and REST API integration experience.",
+    achievements: [
+      { tag: "Frontend", text: "Built customer account management screens and a transaction dashboard in React.js, integrating 10+ REST API endpoints via Axios with centralised error-handling middleware." },
+      { tag: "Frontend", text: "Developed a real-time chat-based support interface for live banking alerts — implemented HTTP polling, WebSocket fallback, and notification state management." },
+      { tag: "Frontend", text: "Delivered WCAG 2.1 AA-compliant UI components across 4 banking products, ensuring accessibility compliance for a diverse customer base." },
+      { tag: "Performance", text: "Achieved 75% unit and integration test coverage on critical user flows using Jest and React Testing Library, reducing production regression incidents significantly." },
+    ],
+  },
 ];
 
 const tagColors: Record<string, string> = {

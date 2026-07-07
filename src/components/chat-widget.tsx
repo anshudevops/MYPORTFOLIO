@@ -76,7 +76,7 @@ export function ChatWidget() {
                 </div>
                 <div>
                   <div className="text-sm font-semibold">Ask Anshu's AI</div>
-                  <div className="text-[11px] text-muted-foreground">Powered by Lovable AI</div>
+                  <div className="text-[11px] text-muted-foreground">Powered by AI</div>
                 </div>
               </div>
               <button onClick={() => setOpen(false)} aria-label="Close" className="rounded-md p-1.5 text-muted-foreground hover:bg-secondary hover:text-foreground">

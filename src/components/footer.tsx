@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-border/60 bg-surface/40">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row sm:px-6">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Anshu Sharma · Built with React, TypeScript & Lovable AI.
+          © {new Date().getFullYear()} Anshu Sharma · Built with React, TypeScript & AI.
         </p>
         <div className="flex items-center gap-2">
           <a href="https://github.com/anshu-devops" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground">
