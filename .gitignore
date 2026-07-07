@@ -14,9 +14,10 @@ dist-ssr
 .vinxi
 .tanstack/**
 .nitro
-*.local
-# .gitignore
+# Ignore all environment variable files
 .env
+*.local
+
 
 # Wrangler / Cloudflare
 .wrangler/
